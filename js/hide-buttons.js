@@ -1,6 +1,6 @@
 const app = document.querySelector(".app");
 
-//const inactiveTime = 3000;
+const inactiveTime = 3000;
 let mouseLastMoveTime = new Date();
 
 document.addEventListener("mousemove",()=>{
